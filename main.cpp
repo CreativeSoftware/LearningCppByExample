@@ -7,6 +7,14 @@ void addProduct(Product p);
 
 int main()
 {
+    Product prod (1921,"title","me", "edi",1932,10.1);
+
+    cout << "price" << endl;
+    cout << prod.price()<< endl;
+
+    prod.setAuthor("new author");
+    cout << prod.author() << endl;
+//    cout << prod.title() << "\n";
 
     return 0;
 }

@@ -11,7 +11,7 @@ AudioTrack::AudioTrack(int trackNumber, const std::string &trackTitle, int minut
 AudioTrack::~AudioTrack(){}
 
 int AudioTrack::trackNumber(void) const {
-    return d_trackNumber
+    return d_trackNumber;
 }
 
 std::string const &AudioTrack::trackTitle(void) const{

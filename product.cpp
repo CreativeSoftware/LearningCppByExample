@@ -11,6 +11,8 @@ Product::Product()
 //Overload Constructor
 Product::Product(int barCode, std::string const &title, std::string const &author,
                  std::string const &publisher, int year, float price)
+    :d_barCode(barCode), d_title(title), d_author(author),
+      d_publisher(publisher), d_price(price)
 {}
 
 
