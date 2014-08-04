@@ -5,10 +5,17 @@ Learning C++ by Example
 A Project to Learn C++
 
 The main objective of this case study is learning C++ subjects by example. It is suppose the basic C++ subjects applied to Object-Oriented Paradigm such as:
+
 •	Inheritance
+
 •	Dynamic Memory
+
 •	Polymorphism
+
 •	Composition
+
+•	Enumerator Classes and Interfaces
+
 The Design Phase it is the most important task. So it is important create a simple class diagram in UML.
 
 Case Study Description
