@@ -5,9 +5,11 @@ CONFIG -= qt
 
 SOURCES += main.cpp \
     product.cpp \
-    audiotrack.cpp
+    audiotrack.cpp \
+    musiccd.cpp
 
 HEADERS += \
     product.h \
-    audiotrack.h
+    audiotrack.h \
+    musiccd.h
 

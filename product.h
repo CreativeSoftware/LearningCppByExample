@@ -9,8 +9,8 @@ class Product
 
 protected:
     int d_barCode, d_year;
-    float d_price;
     std::string d_title, d_author, d_publisher;
+    float d_price;
 
 
 public:

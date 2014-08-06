@@ -4,7 +4,9 @@ AudioTrack::AudioTrack()
 {
 }
 
-AudioTrack::AudioTrack(int trackNumber, const std::string &trackTitle, int minutes, int seconds){
+AudioTrack::AudioTrack(int trackNumber, const std::string &trackTitle, int minutes, int seconds)
+    :d_trackNumber(trackNumber), d_trackTitle(trackTitle), d_minutes(minutes), d_seconds(seconds)
+{
 
 }
 

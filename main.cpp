@@ -1,9 +1,10 @@
 #include <iostream>
 #include "product.h"
+#include "musiccd.h"
 
 using namespace std;
 
-void addProduct(Product p);
+//void addProduct(Product p);
 
 int main()
 {
@@ -15,6 +16,9 @@ int main()
     prod.setAuthor("new author");
     cout << prod.author() << endl;
 //    cout << prod.title() << "\n";
+
+    vector <AudioTrack> newTrack;
+    MusicCD cd(newTrack);
 
     return 0;
 }

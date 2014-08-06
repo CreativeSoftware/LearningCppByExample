@@ -6,8 +6,8 @@
 
 class AudioTrack
 {
-    std::string d_trackTitle;
     int d_trackNumber, d_minutes, d_seconds;
+    std::string d_trackTitle;
 
 public:
     //Default Construtor
